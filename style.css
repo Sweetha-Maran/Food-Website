@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-image: url(./images/bg20.jpg);
+}
+.fs-1{
+    bottom: 0px;
+
+position: relative;}
+.navbar-nav {
+  padding-left: 40%;
+    gap: 30px;
+}
+
+.carousel-inner .carousel-item img{
+    height: 600px;
+}
+.text-start{
+    margin-left: 0%;
+    text-align: justify;
+}/* ✅ Responsive for max-width: 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  .navbar-nav {
+    padding-left: 10%;
+    gap: 15px;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .card-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .fs-1 {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .feature-icon {
+    font-size: 20px;
+  }
+
+  .btn-content {
+    padding: 6px 24px;
+    font-size: 22px;
+  }
+
+  .btn-content .icon-arrow {
+    width: 18px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+/* ✅ Responsive for max-width: 430px */
+@media (max-width: 430px) {
+  body {
+    font-size: 14px;
+  }
+
+  .navbar-nav {
+    padding-left: 5%;
+    gap: 10px;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .card-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .card {
+    margin: 5px;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .content .heading {
+    font-size: 20px;
+  }
+
+  .fs-1 {
+    font-size: 1.5rem;
+    bottom: 0;
+    position: relative;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .feature-icon {
+    font-size: 18px;
+  }
+
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .stat-block {
+    margin: 10px 0;
+  }
+
+  .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn-content {
+    padding: 4px 20px;
+    font-size: 18px;
+  }
+
+  .btn-content .icon-arrow {
+    width: 16px;
+    margin-left: 8px;
+  }
+
+  .btn-conteiner {
+    padding: 10px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+  }
+}
+.review-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.review-card {
+  max-width: 400px;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #fff3;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.review-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ✅ Responsive: 430px - One by one */
+@media (max-width: 430px) {
+  .review-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-card {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .review-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .review-card h5 {
+    font-size: 1.2rem;
+  }
+
+  .review-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 430px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .card-container {
+    flex-direction:column;
+flex-wrap: wrap;
+display: f;
+    align-items: center;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .fs-3, .fs-5, .fs-6 {
+    text-align: center;
+  }
+  .content {
+    padding: 10px;
+  }
+  
+}
+/* From Uiverse.io by adeladel522 */ 
+.button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+
+
+
+
+
+
+   
+
+
+}
+@media (max-width: 430px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav {
+    gap: 8px;
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  /* Cards/Recipe Section */
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 10px;
+  }
+
+  .card-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .card img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  /* Final Image Section */
+  .final img {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    width: 100% !important;
+    height: auto;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  footer .row > div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  footer .btn {
+    margin: 5px;
+  }
+}
+
+ /* From Uiverse.io by gharsh11032000 */ 
+.card-container {
+    width: 450px;
+    height: 450px;
+    position: relative;
+
+    border-radius: 0px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .card {
+    width:100%;
+    height: 100%;
+    gap:10px;
+    background: transparent;
+    backdrop-filter: blur(120px);
+    border-radius: inherit;
+    background-image: url(./images/bg42.jpg);
+  }
+  
+  .card .front-content {
+    width: 100%;
+    display: flex;
+    height: 100%;
+   
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .front-content p {
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 1;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    /* background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% ); */
+    color: #e8e8e8;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translatex(96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card .content .heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .card:hover .content {
+    transform: translateY(0);
+  }
+  
+  .card:hover .front-content {
+    transform: translateX(20%);
+  }
+  
+  .card:hover .front-content p {
+    opacity: 0;
+  }
+  
+  body {
+    background-color: #0d2b29;
+    color: #fff;
+    font-family: 'Georgia', serif;
+  }
+  .stat-icon {
+    background-color: #c29143;
+    width: 70px;
+    
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 10px;
+  }
+  .stat-block {
+    text-align: center;
+  }
+  .stat-divider {
+    border-left: 1px solid #ccc;
+    height: 100%;
+  }
+
+
+
+.tagline {
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.feature-icon {
+  font-size: 24px;
+  color: #d4af37;
+  margin-right: 10px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.feature-text {
+  font-size: 1rem;
+}
+
+
+/* From Uiverse.io by Li-Deheng */ 
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #f1eff0;
+  --color-outline: #f1eff0;
+  --color-shadow: #f1eff0;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+ 
+
+  transition: 1s;
+  border-radius: 100px;
+
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+
+
+
+
+/* //review page */
+
+
+@media (max-width: 430px) {
+  body {
+    font-size: 14px;
+  }
+  .fs-1 {
+    font-size: 1.5rem;
+  }
+  .navbar-nav {
+    padding-left: 5%;
+    gap: 10px;
+  }
+  .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .button {
+    padding: 0.4rem 1rem;
+    font-size: 12px;
+  }
+  .card-container {
+    width: 100%;
+    height: auto;
+  }
+  .card .content .heading {
+    font-size: 24px;
+  }
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .feature-icon {
+    font-size: 18px;
+  }
+  .btn-content {
+    padding: 4px 20px;
+    font-size: 18px;
+  }
+  .btn-content .icon-arrow {
+    width: 16px;
+    margin-left: 8px;
+  }
+}
+.review{
+  gap: 20px;
+}
+
+@media (max-width: 430px) {
+  body {
+    font-size: 14px;
+  }
+  .fs-1 {
+    font-size: 1.5rem;
+  }
+  .navbar-nav {
+    padding-left: 5%;
+    gap: 10px;
+  }
+  .carousel-inner .carousel-item img {
+    height: 300px;
+  }
+  .button {
+    padding: 0.4rem 1rem;
+    font-size: 12px;
+  }
+  .card-container {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  .card .content .heading {
+    font-size: 24px;
+  }
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .feature-icon {
+    font-size: 18px;
+  }
+  .btn-content {
+    padding: 4px 20px;
+    font-size: 18px;
+  }
+  .btn-content .icon-arrow {
+    width: 16px;
+    margin-left: 8px;
+  }
+  .review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .card {
+    padding: 15px;
+    margin: 5px;
+  }
+  .stat-block {
+    margin: 10px 0;
+  }
+  .btn-conteiner {
+    padding: 10px;
+  }
+  
+}
+@media (max-width: 430px) {
+  video {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin-top: 20px;
+  }
+}

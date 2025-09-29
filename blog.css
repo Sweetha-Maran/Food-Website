@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#006A67;
+}
+ .card img:hover {
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    position: relative;
+   filter:grayscale(30px);
+    transform: scale(1.1);
+ }
+.card:hover {
+    background-color:rgb(255, 241, 227);
+    filter: brightnes(30px);
+    box-shadow: 1px 1px 10px 10px white;
+    border-radius: 0px 0px 200px 0px;
+    border-style:groove;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;  /* Set a max width for images */
+    overflow: hidden;
+}
+
+/* Style for the image */
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.3s ease; /* Smooth scaling of the image */
+}
+
+/* Content inside the image (hidden by default) */
+.image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* Center the content */
+    color: white;
+    opacity: 0;  /* Initially hidden */
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 8px;
+}
+
+/* Show content inside the image when hovering */
+.image-container:hover img {
+    transform: scale(1.1);  /* Scale the image slightly on hover */
+}
+
+.image-container:hover .image-content {
+    opacity: 1;  /* Show the content inside the image */
+}
